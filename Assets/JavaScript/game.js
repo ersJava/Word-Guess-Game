@@ -1,3 +1,10 @@
+// new comments - still not sure how to make the code print on the html page
+// but i think i got the relative file path for the JavaScript page to at least sync
+
+// also, had CSS styling for my page that didn't go through to the live link, not sure what happened here
+// so I just commented those out this time because it was bringing up an error in the console
+
+// couldn't figure out the win/lose portion, can't even remember how I got there
 
 // not sure how to get the game to actually start in the page :(
 // not sure how to make spaces in the multiple word cartoons
@@ -17,8 +24,8 @@ var winCounter = 0;
 var wins = 0;
 var loss = 0;
 
-
 // Write functions
+console.log("hello world")
 
 function startGame() {
     randomWord = cartoonArr[Math.floor(Math.random() * cartoonArr.length)];
@@ -26,7 +33,7 @@ function startGame() {
     {
         answerArr.push('_');
     }
-    console.log("Hello world");
+   
 
     document.getElementById('letter').innerHTML = answerArr.join(" ");
 
