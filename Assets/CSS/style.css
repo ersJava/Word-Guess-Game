@@ -1,0 +1,96 @@
+/* @import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url('https://fonts.googleapis.com/css?family=Bangers'); */
+
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+.game {
+    width: 100%;
+    margin-top: 150px;
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+body { background: #000; color: #fff; position: relative;}
+
+.vectro {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.1px #f1f1f1;
+  font-family: 'Righteous', cursive;
+  font-size: 140px;
+  margin: 100px;
+}
+
+.vectro:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /*-webkit-animation:vectro_effect 0.067s infinite;*/
+  background: repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, rgba(255,255,255,0) 1px, rgba(255,255,255,0) 2px);
+}
+
+.vectro-body {
+  -webkit-background-clip: text;
+  background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 100%);
+  -webkit-filter: drop-shadow(2px 2px 15px #3F59F4);
+}
+
+.vectro-red {
+  color: #F10C20;
+  -webkit-text-fill-color: #F10C20;
+  -webkit-text-stroke: 0;
+  -webkit-filter: drop-shadow(2px 2px 15px #F10C20);
+  font-style: italic;
+  padding-right: 20px;
+}
+
+.vectro-green {
+  color: #6BFF2B;
+  -webkit-text-fill-color: #6BFF2B;
+  -webkit-filter: drop-shadow(2px 2px 15px #6BFF2B);
+  -webkit-text-stroke: 0;
+  font-style: italic;
+  padding-right: 20px;
+  margin-left: -20px;
+}
+
+.vectro-blue {
+  color: #3F59F4;
+  -webkit-text-fill-color: #3F59F4;
+  -webkit-filter: drop-shadow(2px 2px 15px #3F59F4);
+  -webkit-text-stroke: 0;
+  font-style: italic;
+  padding-right: 20px;
+  margin-left: -20px;
+}
+
+.victory {
+  font-family: 'Permanent Marker', cursive;
+  font-variant:small-caps;
+  font-size: 100px;
+  -webkit-transform: skew(-8deg,-8deg);
+  padding-left: 30px;
+  background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 190px;
+  margin-top: -140px;
+  -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+}
+
+h3, p {
+
+}
+
+
+
